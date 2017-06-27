@@ -1,0 +1,12 @@
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\PhoneBook.Data.dll.config
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\PhoneBook.Data.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\PhoneBook.Data.pdb
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\EntityFramework.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\PhoneBook.Models.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\PhoneBook.Models.pdb
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\EntityFramework.xml
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\obj\Debug\PhoneBook.Data.csprojResolveAssemblyReference.cache
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\obj\Debug\PhoneBook.Data.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Data\obj\Debug\PhoneBook.Data.pdb

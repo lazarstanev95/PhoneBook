@@ -1,0 +1,15 @@
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\PhoneBook.Client.exe.config
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\PhoneBook.Client.exe
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\PhoneBook.Client.pdb
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\EntityFramework.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\PhoneBook.Data.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\PhoneBook.Models.dll
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\PhoneBook.Data.pdb
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\PhoneBook.Data.dll.config
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\PhoneBook.Models.pdb
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\EntityFramework.xml
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\obj\Debug\PhoneBook.Client.csprojResolveAssemblyReference.cache
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\obj\Debug\PhoneBook.Client.exe
+C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Client\obj\Debug\PhoneBook.Client.pdb
