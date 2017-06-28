@@ -48,5 +48,11 @@ namespace PhoneBook.Data.Repositories
             Context.Users.Remove(user);
             Context.SaveChanges();
         }
+
+        public bool isUsernameExist(string username)
+        {
+            var v = Context.Users.Where(u => u.Username == username).FirstOrDefault();
+            return v != null;
+        }
     }
 }

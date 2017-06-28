@@ -124,8 +124,15 @@ namespace PhoneBook.Client.Views
             Console.WriteLine("Is Admin: ");
             user.IsAdmin = Convert.ToBoolean(Console.ReadLine());
             UsersRepository userRepository = new UsersRepository();
+            if (userRepository.isUsernameExist(user.Username))
+            {
+                Console.WriteLine("Username already exist!");
+                Console.ReadKey(true);
+                return;
+            }
             userRepository.Save(user);
             Console.WriteLine("User saved successfully.");
+            Console.ReadKey();
         }
 
         public void Update()
