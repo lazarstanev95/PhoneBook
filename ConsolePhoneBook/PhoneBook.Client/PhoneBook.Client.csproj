@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authentication\AuthenticationService.cs" />
+    <Compile Include="Crypto\Crypto.cs" />
     <Compile Include="Login\LoginView.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

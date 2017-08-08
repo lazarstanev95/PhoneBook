@@ -18,7 +18,7 @@ namespace PhoneBook.Client.Login
                 Console.WriteLine("Enter password: ");
                 string password = Console.ReadLine();
 
-                AuthenticationService.Authenticate(username, password);
+                AuthenticationService.Authenticate(username, Crypto.Crypto.Hash(password));
 
                 if (AuthenticationService.LoggedUser != null)
                 {

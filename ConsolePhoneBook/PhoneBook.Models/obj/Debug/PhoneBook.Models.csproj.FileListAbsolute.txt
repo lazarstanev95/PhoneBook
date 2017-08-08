@@ -3,3 +3,8 @@ C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Models\bin\Debug\PhoneBook
 C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Models\obj\Debug\PhoneBook.Models.csprojResolveAssemblyReference.cache
 C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Models\obj\Debug\PhoneBook.Models.dll
 C:\Users\ironm_000\Desktop\ConsolePhoneBook\PhoneBook.Models\obj\Debug\PhoneBook.Models.pdb
+C:\Users\ironm_000\Documents\GitHub\PhoneBook\ConsolePhoneBook\PhoneBook.Models\bin\Debug\PhoneBook.Models.dll
+C:\Users\ironm_000\Documents\GitHub\PhoneBook\ConsolePhoneBook\PhoneBook.Models\bin\Debug\PhoneBook.Models.pdb
+C:\Users\ironm_000\Documents\GitHub\PhoneBook\ConsolePhoneBook\PhoneBook.Models\obj\Debug\PhoneBook.Models.csprojResolveAssemblyReference.cache
+C:\Users\ironm_000\Documents\GitHub\PhoneBook\ConsolePhoneBook\PhoneBook.Models\obj\Debug\PhoneBook.Models.dll
+C:\Users\ironm_000\Documents\GitHub\PhoneBook\ConsolePhoneBook\PhoneBook.Models\obj\Debug\PhoneBook.Models.pdb
