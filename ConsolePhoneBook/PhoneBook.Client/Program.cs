@@ -17,21 +17,54 @@ namespace PhoneBook.Client
         {
             PhoneBookDBContext context = new PhoneBookDBContext();
             context.Database.Initialize(true);
-            LoginView loginView = new LoginView();
-            loginView.Show();
 
-            if (AuthenticationService.LoggedUser.IsAdmin)
+            while (true)
             {
-                AdminView adminView = new AdminView();
-                adminView.Show();
+                Console.Clear();
+                Console.WriteLine("[R]egister user");
+                Console.WriteLine("[L]ogin");
+                Console.WriteLine("[E]xit from program");
+                string choice = Console.ReadLine();
+                switch (choice.ToUpper())
+                {
+                    case "R":
+                        {
+                            RegisterView registerView = new RegisterView();
+                            registerView.Show();
+                            break;
+                        }
+                    case "L":
+                        {
+                            LoginView loginView = new LoginView();
+                            loginView.Show();
+
+                            if (AuthenticationService.LoggedUser.IsAdmin)
+                            {
+                                AdminView adminView = new AdminView();
+                                adminView.Show();
+                            }
+                            else
+                            {
+                                ContactsManagerView contactsManagerView = new ContactsManagerView();
+                                contactsManagerView.Show();
+                            }
+                            Console.WriteLine("Bye!");
+                            Console.ReadKey(true);
+                            break;
+                        }
+                    case "E":
+                        {
+                            Console.WriteLine("Bye!");
+                            return;
+                        }
+                    default:
+                        {
+                            Console.WriteLine("Invalid choice!");
+                            Console.ReadKey(true);
+                            break;
+                        }
+                }
             }
-            else
-            {
-                ContactsManagerView contactsManagerView = new ContactsManagerView();
-                contactsManagerView.Show();
-            }
-            Console.WriteLine("Bye!");
-            Console.ReadKey(true);
         }
     }
 }

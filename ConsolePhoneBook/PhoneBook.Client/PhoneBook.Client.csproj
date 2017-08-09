@@ -57,6 +57,7 @@
     <Compile Include="Views\AdminView.cs" />
     <Compile Include="Views\ContactsManagerView.cs" />
     <Compile Include="Views\PhonesManagerView.cs" />
+    <Compile Include="Views\RegisterView.cs" />
     <Compile Include="Views\UserManagerView.cs" />
   </ItemGroup>
   <ItemGroup>

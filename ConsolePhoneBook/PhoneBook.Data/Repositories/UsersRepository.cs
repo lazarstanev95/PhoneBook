@@ -49,7 +49,7 @@ namespace PhoneBook.Data.Repositories
             Context.SaveChanges();
         }
 
-        public bool isUsernameExist(string username)
+        public bool IsUsernameExist(string username)
         {
             var v = Context.Users.Where(u => u.Username == username).FirstOrDefault();
             return v != null;

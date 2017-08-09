@@ -117,6 +117,7 @@ namespace PhoneBook.Client.Views
             user.Username = Console.ReadLine();
             Console.WriteLine("Enter password: ");
             user.Password = Console.ReadLine();
+            user.Password = Crypto.Crypto.Hash(user.Password);
             Console.WriteLine("Enter first name: ");
             user.FirstName = Console.ReadLine();
             Console.WriteLine("Enter last name: ");
@@ -124,7 +125,7 @@ namespace PhoneBook.Client.Views
             Console.WriteLine("Is Admin: ");
             user.IsAdmin = Convert.ToBoolean(Console.ReadLine());
             UsersRepository userRepository = new UsersRepository();
-            if (userRepository.isUsernameExist(user.Username))
+            if (userRepository.IsUsernameExist(user.Username))
             {
                 Console.WriteLine("Username already exist!");
                 Console.ReadKey(true);
@@ -177,7 +178,7 @@ namespace PhoneBook.Client.Views
             if (!string.IsNullOrEmpty(username))
                 user.Username = username;
             if (!string.IsNullOrEmpty(password))
-                user.Password = password;
+                user.Password = Crypto.Crypto.Hash(password);
             if (!string.IsNullOrEmpty(firstName))
                 user.FirstName = firstName;
             if (!string.IsNullOrEmpty(lastName))
